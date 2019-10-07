@@ -1,0 +1,8 @@
+
+    <h4>* {{postTitle}} * - - - - - * {{createDate | date: 'EEEE dd MMMM y'}} * - - - - - *Aime: <span class="label label-warning"> {{loveIts}}</span></h4>
+    <p>{{postContent}}</p>
+<div class="btn-toolbar">
+    <button class="btn btn-primary" (click)="loveIt()">Love it</button>
+    <button class="btn btn-info"  (click)="donLoveIt()">Don't Love it</button>  
+    
+</div>
